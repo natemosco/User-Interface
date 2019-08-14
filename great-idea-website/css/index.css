@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+}
+.container2{
+	width:830px;
+	margin:0 auto;
+
+	/* border: 5px solid black;  */
+	/* background-color: red;  */
+}
+	.navigationBar{
+		margin: auto;
+		width: 830px;
+	}
+	
+		container nav a{
+			text-decoration: none;
+			color: #8a8987;
+			padding:25px;
+		
+		}
+		.navigationBar img{
+			padding: 0 0 0 20px;
+			width: 35%;
+		}
+	header{
+		line-height: 0.75;
+		margin: 50px 0px 50px 100px;
+		width: 830px;
+	}
+		.paragraphAndButton{
+			display:inline-block;
+			/* text-align: center; */
+			/* background-color: blue; */
+			width:40%;
+
+
+			margin-right:100px;
+		}
+		header h1{
+			font-size:70px;
+			height:200px;
+			width:200px;
+			text-align:	center;
+		}
+		header div.button{
+			background-color: white;
+			border: 1px solid black;
+			color: black;
+			padding: 6px 40px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 68px;
+			margin-left:100px;
+			
+
+		}
+		header div img{
+			width:33%;
+			display: inline-block;
+			 
+		}
+	section.sectionOne{
+		width: 830px;
+	}
+		.sectionOne div{
+			display: inline-block;
+			width: 45%;
+			text-align: justify;
+			padding: 10px;
+		}
+	section.sectionTwo{
+		
+	}
+		.sectionTwo img{
+			margin: 30px 0 30px 0;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+	section.sectionThree{
+		width: 830px;
+	}
+	.sectionThree div{
+		display: inline-block;
+		text-align: justify;
+		padding: 10px;
+		width:32%;
+	}
+	.contact {
+		margin-top: 30px;
+	}
+	
+	footer p{
+		text-align: center;
+	}
+	
